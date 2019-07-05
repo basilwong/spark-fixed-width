@@ -25,7 +25,7 @@ public class FlatFileMaker {
 
     private static String determinePath() {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-        return "src/main/resources/" + timestamp.toString();
+        return "src/main/resources/" + timestamp.toString().replaceAll(":", "") + "/";
     }
 
 }

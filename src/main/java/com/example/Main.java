@@ -32,8 +32,6 @@ public class Main {
       String schemaFilePath = "src/main/resources/schema1.csv";
       String flatFilePath = "src/main/resources/fw1.txt";
 
-//      Dataset<Row> classDS = FlatFileParser.parseFlatFile(sesh, flatFilePath, schemaFilePath);
-
       FlatFileParser parser = new FlatFileParser(sesh, flatFilePath, schemaFilePath);
       Dataset<Row> methodDS = parser.getDataset(sesh);
 
@@ -42,11 +40,7 @@ public class Main {
               .withColumn("Last-Name", functions.substring(methodDS.col("Last-Name"), 0, 10));
       newDS.show();
 
-
-
-
-      JavaRDD<String> trip = newDS.rdd().toJavaRDD().map(row-> rowToFWSTring(parser.getColSizes(), row));
-      trip.saveAsTextFile("src/main/resources/outputyo");
-
+      // Save To Flat File
+      FlatFileMaker.genFlatFile(newDS, parser.getColSizes());
    }
 }
