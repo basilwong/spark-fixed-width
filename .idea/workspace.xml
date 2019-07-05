@@ -2,8 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3a497e5-bc44-437d-8c26-abec03ec8e0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2019-07-05 141747.453/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2019-07-05 141747.453/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2019-07-05 141747.453/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2019-07-05 141747.453/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2019-07-05141704.492/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2019-07-05141704.492/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2019-07-05141704.492/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2019-07-05141704.492/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/.part-00000-c4d22ba7-02fc-45ac-8917-e7d1adcf637b-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/hello.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/hello.txt/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/hello.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/hello.txt/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/part-00000-c4d22ba7-02fc-45ac-8917-e7d1adcf637b-c000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/outputyo/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/outputyo/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/outputyo/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/outputyo/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/2019-07-05 141747.453/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/2019-07-05 141747.453/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/2019-07-05 141747.453/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/2019-07-05 141747.453/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/2019-07-05141704.492/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/2019-07-05141704.492/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/2019-07-05141704.492/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/2019-07-05141704.492/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/output/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/output/.part-00000-c4d22ba7-02fc-45ac-8917-e7d1adcf637b-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/output/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/output/hello.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/output/hello.txt/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/output/hello.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/output/hello.txt/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/output/part-00000-c4d22ba7-02fc-45ac-8917-e7d1adcf637b-c000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/outputyo/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/outputyo/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/outputyo/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/outputyo/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+            <state relative-caret-position="255">
+              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="112">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,32 +94,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/outputyo/part-00000">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/fw1.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/schema1.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
+            <state relative-caret-position="-840">
               <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -113,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/schema1.csv" />
         <option value="$PROJECT_DIR$/src/main/java/SparkHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/BasicTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Main.java" />
       </list>
     </option>
   </component>
@@ -140,8 +159,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="width" value="775" />
+    <option name="height" value="472" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -193,14 +212,6 @@
               <item name="FixedWidthSample" type="b2602c69:ProjectViewProjectNode" />
               <item name="FixedWidthSample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="2019-07-05141704.492" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FixedWidthSample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FixedWidthSample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,6 +252,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Main" />
       <module name="FixedWidthSample" />
+      <option name="PROGRAM_PARAMETERS" value="local src/main/resources/schema1.csv src/main/resources/fw1.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
@@ -345,10 +357,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/2019-07-05141704.492/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/output/2019-07-05 142411.545/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="-840">
           <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -364,21 +392,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/2019-07-05141704.492/part-00000">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="255">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

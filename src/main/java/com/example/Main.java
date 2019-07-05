@@ -5,32 +5,16 @@ import org.apache.spark.sql.*;
 import org.apache.spark.sql.types.*;
 import java.util.*;
 import org.apache.spark.sql.functions;
-import com.example.FlatFileParser;
-
-import javax.swing.text.Element;
-import org.apache.commons.lang3.StringUtils;
-
 
 public class Main {
-
-
-   public static String rowToFWSTring(List<Integer> rowSize, Row r) {
-      String[] vals = new String[r.size()];
-      for (int i = 0; i < r.size(); i++) {
-         vals[i] = StringUtils.leftPad(r.getString(i), rowSize.get(i), ' ');
-      }
-      return String.join("", vals);
-   }
 
    public static void main(String[] args) {
 
       // Spark Session
-      System.out.println("Creating Spark Session...");
-      SparkSession sesh = SparkSession.builder().master("local").appName("test").getOrCreate();
-      System.out.println("Spark Session Created.");
+      SparkSession sesh = SparkSession.builder().master(args[0]).appName("test").getOrCreate();
 
-      String schemaFilePath = "src/main/resources/schema1.csv";
-      String flatFilePath = "src/main/resources/fw1.txt";
+      String schemaFilePath = args[1];
+      String flatFilePath = args[2];
 
       FlatFileParser parser = new FlatFileParser(sesh, flatFilePath, schemaFilePath);
       Dataset<Row> methodDS = parser.getDataset(sesh);
