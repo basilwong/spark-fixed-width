@@ -42,33 +42,11 @@ public class Main {
               .withColumn("Last-Name", functions.substring(methodDS.col("Last-Name"), 0, 10));
       newDS.show();
 
-//      // Edit Rows
-
-//       Dataset<Row> sinDS = newDS
 
 
-//      StructType sek = new StructType(new StructField[] {
-//                  new StructField("a", DataTypes.createArrayType(DataTypes.StringType), false, Metadata.empty())
-//      });
+
       JavaRDD<String> trip = newDS.rdd().toJavaRDD().map(row-> rowToFWSTring(parser.getColSizes(), row));
       trip.saveAsTextFile("src/main/resources/outputyo");
-//      Dataset<Row> readyToWrite = sesh.createDataset(trip, sek);
-//      System.out.println(readyToWrite);
-
-//      newDS.select(newDS.col("*"))
-//                      .write().mode(SaveMode.Append).csv("src/main/resources/output");
-//
-//      newDS
-//           .write()
-//           .mode(SaveMode.Append)
-//           .csv("src/main/resources/output");
-
-
-
-
-//              .map(row -> rowToFWSTring(row)).collect();
-
-
 
    }
 }
