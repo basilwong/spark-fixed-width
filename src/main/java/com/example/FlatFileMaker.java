@@ -10,9 +10,9 @@ import java.text.SimpleDateFormat;
 
 public class FlatFileMaker {
 
-    public static void genFlatFile(Dataset<Row> data, List<Integer> colSizes) {
+    public static void genFlatFile(String outputPath, Dataset<Row> data, List<Integer> colSizes) {
         JavaRDD<String> trip = data.rdd().toJavaRDD().map(row-> rowToFWSTring(colSizes, row));
-        trip.saveAsTextFile(determinePath());
+        trip.saveAsTextFile(determinePath(outputPath));
     }
 
     private static String rowToFWSTring(List<Integer> rowSize, Row r) {
@@ -23,9 +23,9 @@ public class FlatFileMaker {
         return String.join("", vals);
     }
 
-    private static String determinePath() {
+    private static String determinePath(String outputPath) {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-        return "src/main/output/" + timestamp.toString().replaceAll(":", "") + "/";
+        return outputPath + timestamp.toString().replaceAll(":", "") + "/";
     }
 
 }
