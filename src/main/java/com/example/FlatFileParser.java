@@ -8,7 +8,6 @@ import java.io.Serializable;
 import java.util.*;
 import java.util.stream.Collectors;
 
-
 public class FlatFileParser implements Serializable {
 
     private String flatFilePath;

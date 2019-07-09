@@ -17,18 +17,27 @@ public class SerUtil implements Serializable {
         for (Integer col_pos : pos) {
             if (str.length() <= col_pos + start) {
                 if (str.length() <= start) {
-                    cols.add("");
+                    cols.add(null);
                 } else {
-                    cols.add(str.substring(start).trim());
+                    String val = str.substring(start).trim();
+                    if (val.isEmpty()) {
+                        cols.add(null);
+                    } else {
+                        cols.add(val);
+                    }
                 }
             } else if (str.length() > col_pos + start) {
-                cols.add(str.substring(start, start + col_pos).trim());
+                String val = str.substring(start, start + col_pos).trim();
+                if (val.isEmpty()) {
+                    cols.add(null);
+                } else {
+                    cols.add(val);
+                }
             } else {
-                cols.add("");
+                cols.add(null);
             }
             start += col_pos;
         }
         return RowFactory.create(cols.toArray());
     }
 }
-

@@ -1,6 +1,5 @@
 package com.example;
 
-
 import org.apache.commons.lang3.StringUtils;
 import org.apache.spark.api.java.*;
 import org.apache.spark.sql.*;
@@ -27,5 +26,4 @@ public class FlatFileMaker {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         return outputPath + timestamp.toString().replaceAll(":", "") + "/";
     }
-
 }

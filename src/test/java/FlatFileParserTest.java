@@ -1,32 +1,32 @@
-import java.io.Serializable;
-import com.example.FlatFileParser;
-import com.example.SerUtil;
-
-import org.apache.spark.sql.*;
-import java.util.*;
-import com.google.common.primitives.Ints;
-import org.apache.spark.api.java.JavaPairRDD;
-import org.junit.After;
+import org.apache.spark.SparkConf;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
+import org.apache.spark.sql.SparkSession;
+import org.junit.AfterClass;
 import org.junit.Assert;
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.util.*;
+import com.example.SerUtil;
+import com.example.FlatFileParser;
+import com.google.common.primitives.Ints;
 
+public class FlatFileParserTest {
+    private static Dataset<Row> df;
+    private static SparkSession spark;
 
-public class FlatFileParserTest implements Serializable{
-
-    private static final long serialVersionUID = 1L;
-    private transient SparkSession sp;
-
-    @Before
-    public void setUp() {
-        SparkSession sp = SparkSession.builder().master("local").appName("test").getOrCreate();
+    @BeforeClass
+    public static void beforeClass() {
+        spark = SparkSession.builder().master("local[*]").config(new SparkConf().set("fs.defaultFS", "file:///"))
+                .appName(FlatFileParserTest.class.getName()).getOrCreate();
+        df = spark.read().format("csv").option("header", "true").load("src/test/resources/credithistory.csv");
     }
 
-    @After
-    public void tearDown() {
-        if (sp != null){
-            sp.stop();
+    @AfterClass
+    public static void afterClass() {
+        if (spark != null) {
+            spark.stop();
         }
     }
 
@@ -39,7 +39,7 @@ public class FlatFileParserTest implements Serializable{
 
         Row result = SerUtil.lsplit(schema, testStr);
 
-        Assert.assertEquals("", result.getString(0));
+        Assert.assertEquals(null, result.getString(0));
         Assert.assertEquals("1", result.getString(1));
         Assert.assertEquals("22", result.getString(2));
         Assert.assertEquals("333", result.getString(3));
@@ -63,4 +63,16 @@ public class FlatFileParserTest implements Serializable{
 		Assert.assertEquals("ú ú", result.getString(6));
     }
 
+    @Test
+    public void testParserBasic() {
+
+        String flatFilePath = "src/test/resources/sourceFlatFileTest1.txt";
+        String schemaFilePath = "src/test/resources/schematest1.csv";
+
+        FlatFileParser parser = new FlatFileParser(spark, flatFilePath, schemaFilePath);
+        Dataset<Row> result = parser.getDataset(spark);
+        result.show();
+        df.show();
+        Assert.assertEquals(df.collectAsList(), result.collectAsList());
+    }
 }
