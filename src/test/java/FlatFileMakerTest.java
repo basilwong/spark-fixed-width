@@ -21,9 +21,18 @@ public class FlatFileMakerTest {
 
     @BeforeClass
     public static void beforeClass() {
-        spark = SparkSession.builder().master("local[*]").config(new SparkConf().set("fs.defaultFS", "file:///"))
-                .appName(FlatFileParserTest.class.getName()).getOrCreate();
-        df = spark.read().format("csv").option("header", "true").load("src/test/resources/credit-history.csv");
+        spark = SparkSession
+                .builder()
+                .master("local[*]")
+                .config(new SparkConf().set("fs.defaultFS", "file:///"))
+                .appName(FlatFileParserTest.class.getName())
+                .getOrCreate();
+        spark.sparkContext().setLogLevel("WARN");
+        df = spark
+                .read()
+                .format("csv")
+                .option("header", "true")
+                .load("src/test/resources/credit-history.csv");
     }
 
     @AfterClass
@@ -37,9 +46,14 @@ public class FlatFileMakerTest {
     public void testMakerBasic() {
         String outputPath = "src/test/resources/output/";
         String schemaPath = "src/test/resources/sample-schema-1.csv";
-        String filePath = FlatFileMaker.genFlatFile(spark, schemaPath, outputPath, df, false);
-        String s = filePath.concat("part-00000");
-        List<String> result = readFileHelper(s);
+        String filePath = FlatFileMaker.genFlatFile(
+                spark,
+                schemaPath,
+                outputPath,
+                df,
+                false);
+
+        List<String> result = readFileHelper(filePath.concat("part-00000"));
         List<String> x = readFileHelper("src/test/resources/sample-generated-1.txt");
 
         Assert.assertEquals(x, result);

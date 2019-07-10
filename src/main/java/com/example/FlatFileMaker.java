@@ -9,11 +9,21 @@ import java.text.SimpleDateFormat;
 
 public class FlatFileMaker {
 
-    public static String genFlatFile(SparkSession sc, String schemaPath, String outputPath, Dataset<Row> data, Boolean leftpad) {
+    public static String genFlatFile(
+            SparkSession sc,
+            String schemaPath,
+            String outputPath,
+            Dataset<Row> data,
+            Boolean leftpad) {
+
         List<Integer> colSizes = getColSizes(sc, schemaPath);
-        JavaRDD<String> trip = data.rdd().toJavaRDD().map(row-> rowToFWSTring(colSizes, row, leftpad));
+        JavaRDD<String> trip = data.rdd()
+                .toJavaRDD()
+                .map(row-> rowToFWSTring(colSizes, row, leftpad));
+
         String filePath = determinePath(outputPath);
         trip.saveAsTextFile(filePath);
+
         return filePath;
     }
 
@@ -28,7 +38,9 @@ public class FlatFileMaker {
             if (r.get(i) == null) {
                 vals[i] = StringUtils.repeat(" ", rowSize.get(i));
             } else {
-                vals[i] = String.format("%" + sign + rowSize.get(i) + "s", r.get(i).toString()).substring(0, rowSize.get(i));
+                vals[i] = String
+                        .format("%" + sign + rowSize.get(i) + "s", r.get(i).toString())
+                        .substring(0, rowSize.get(i));
             }
         }
         return String.join("", vals);

@@ -1,9 +1,6 @@
 package com.example;
 
-import org.apache.spark.api.java.*;
 import org.apache.spark.sql.*;
-import org.apache.spark.sql.types.*;
-import java.util.*;
 import org.apache.spark.sql.functions;
 
 public class Main {
@@ -12,20 +9,30 @@ public class Main {
 
       // Spark Session
       SparkSession sesh = SparkSession.builder().master(args[0]).appName("test").getOrCreate();
+      sesh.sparkContext().setLogLevel("WARN");
 
+      // Parse Flat File
       String schemaFilePath = args[1];
       String flatFilePath = args[2];
 
       FlatFileParser parser = new FlatFileParser(sesh, flatFilePath, schemaFilePath);
       Dataset<Row> methodDS = parser.getDataset(sesh);
 
+
+
       // Transformation
-      Dataset<Row> newDS = methodDS
-              .withColumn("Last-Name", functions.substring(methodDS.col("Last-Name"), 0, 10));
-      newDS.show();
+//      for (String c : methodDS.columns()) {
+//         methodDS = methodDS
+//                 .withColumn(c, TransUtil.set_col_length(methodDS.col(c), 3));
+//      }
+      methodDS.show();
+      methodDS = methodDS.
+              withColumn("Birth-Date", TransUtil.toFlatFileDate(methodDS.col("Birth-Date")));
+
+      methodDS.show();
 
       // Save To Flat File
       String outputPath = args[3];
-      FlatFileMaker.genFlatFile(sesh, schemaFilePath, outputPath, newDS, true);
+      FlatFileMaker.genFlatFile(sesh, schemaFilePath, outputPath, methodDS, true);
    }
 }

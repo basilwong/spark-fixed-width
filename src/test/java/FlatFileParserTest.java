@@ -18,9 +18,18 @@ public class FlatFileParserTest {
 
     @BeforeClass
     public static void beforeClass() {
-        spark = SparkSession.builder().master("local[*]").config(new SparkConf().set("fs.defaultFS", "file:///"))
-                .appName(FlatFileParserTest.class.getName()).getOrCreate();
-        df = spark.read().format("csv").option("header", "true").load("src/test/resources/credit-history.csv");
+        spark = SparkSession
+                .builder()
+                .master("local[*]")
+                .config(new SparkConf().set("fs.defaultFS", "file:///"))
+                .appName(FlatFileParserTest.class.getName())
+                .getOrCreate();
+        spark.sparkContext().setLogLevel("WARN");
+        df = spark
+                .read()
+                .format("csv")
+                .option("header", "true")
+                .load("src/test/resources/credit-history.csv");
     }
 
     @AfterClass
@@ -71,8 +80,7 @@ public class FlatFileParserTest {
 
         FlatFileParser parser = new FlatFileParser(spark, flatFilePath, schemaFilePath);
         Dataset<Row> result = parser.getDataset(spark);
-        result.show();
-        df.show();
+
         Assert.assertEquals(df.collectAsList(), result.collectAsList());
     }
 }
