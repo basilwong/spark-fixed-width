@@ -20,7 +20,7 @@ public class FlatFileParserTest {
     public static void beforeClass() {
         spark = SparkSession.builder().master("local[*]").config(new SparkConf().set("fs.defaultFS", "file:///"))
                 .appName(FlatFileParserTest.class.getName()).getOrCreate();
-        df = spark.read().format("csv").option("header", "true").load("src/test/resources/credithistory.csv");
+        df = spark.read().format("csv").option("header", "true").load("src/test/resources/credit-history.csv");
     }
 
     @AfterClass
@@ -66,8 +66,8 @@ public class FlatFileParserTest {
     @Test
     public void testParserBasic() {
 
-        String flatFilePath = "src/test/resources/sourceFlatFileTest1.txt";
-        String schemaFilePath = "src/test/resources/schematest1.csv";
+        String flatFilePath = "src/test/resources/sample-flat-file-1.txt";
+        String schemaFilePath = "src/test/resources/sample-schema-1.csv";
 
         FlatFileParser parser = new FlatFileParser(spark, flatFilePath, schemaFilePath);
         Dataset<Row> result = parser.getDataset(spark);
