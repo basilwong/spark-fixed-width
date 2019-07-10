@@ -25,6 +25,7 @@ public class Main {
       newDS.show();
 
       // Save To Flat File
-      FlatFileMaker.genFlatFile(args[3], newDS, parser.getColSizes());
+      String outputPath = args[3];
+      FlatFileMaker.genFlatFile(sesh, schemaFilePath, outputPath, newDS, true);
    }
 }

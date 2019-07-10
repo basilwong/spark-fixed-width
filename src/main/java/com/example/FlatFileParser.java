@@ -18,12 +18,12 @@ public class FlatFileParser implements Serializable {
      public FlatFileParser(SparkSession sc, String flatFilePath, String schemaFilePath) {
          this.flatFilePath = flatFilePath;
          this.schemaFilePath = schemaFilePath;
-         Dataset<Row> readraw = readSchema(sc);
+         Dataset<Row> readraw = readRawSchema(sc);
          readColSizes(readraw);
          readSchema(readraw);
     }
 
-    private Dataset<Row> readSchema(SparkSession sc) {
+    private Dataset<Row> readRawSchema(SparkSession sc) {
         return sc
                 .read()
                 .format("csv")

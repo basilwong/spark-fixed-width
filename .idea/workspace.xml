@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3a497e5-bc44-437d-8c26-abec03ec8e0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FlatFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FlatFileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FlatFileMakerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlatFileMakerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/temp/testRead.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="399">
+              <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,10 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FlatFileParserTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FlatFileMakerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="518">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,43 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="11" column="94" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FlatFileMakerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/SerUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="-213">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,15 +81,15 @@
         <option value="$PROJECT_DIR$/src/main/resources/schema1.csv" />
         <option value="$PROJECT_DIR$/src/main/java/SparkHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/BasicTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/testRead.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/temp/testRead.java" />
         <option value="$PROJECT_DIR$/src/test/resources/credithistory.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/FlatFileParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/SerUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/FlatFileParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/FlatFileParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java" />
         <option value="$PROJECT_DIR$/src/test/java/FlatFileMakerTest.java" />
       </list>
     </option>
@@ -272,6 +239,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FlatFileMakerTest.testMakerBasic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FixedWidthSample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlatFileMakerTest" />
+      <option name="METHOD_NAME" value="testMakerBasic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlatFileParserTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FixedWidthSample" />
       <extension name="coverage">
@@ -299,35 +276,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FixedWidthSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="temp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="temp" />
-      <option name="MAIN_CLASS_NAME" value="temp.testRead" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.FlatFileParserTest" />
       <item itemvalue="JUnit.All in FixedWidthSample" />
-      <item itemvalue="JUnit.testRead" />
       <item itemvalue="JUnit.FlatFileParserTest (1)" />
+      <item itemvalue="JUnit.FlatFileMakerTest.testMakerBasic" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in FixedWidthSample" />
+        <item itemvalue="JUnit.FlatFileMakerTest.testMakerBasic" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FlatFileParserTest" />
         <item itemvalue="JUnit.FlatFileParserTest (1)" />
-        <item itemvalue="JUnit.testRead" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -345,41 +307,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FlatFileParserTest - 2019.07.09 at 08h 53m 10s.xml">
-      <configuration name="FlatFileParserTest" configurationId="JUnit" />
+    <history-entry file="FlatFileMakerTest_testMakerBasic - 2019.07.10 at 08h 23m 02s.xml">
+      <configuration name="FlatFileMakerTest.testMakerBasic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlatFileParserTest - 2019.07.09 at 09h 37m 18s.xml">
-      <configuration name="FlatFileParserTest" configurationId="JUnit" />
+    <history-entry file="FlatFileMakerTest_testMakerBasic - 2019.07.10 at 08h 26m 02s.xml">
+      <configuration name="FlatFileMakerTest.testMakerBasic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlatFileParserTest - 2019.07.09 at 09h 41m 20s.xml">
-      <configuration name="FlatFileParserTest" configurationId="JUnit" />
+    <history-entry file="FlatFileMakerTest_testMakerBasic - 2019.07.10 at 08h 31m 56s.xml">
+      <configuration name="FlatFileMakerTest.testMakerBasic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlatFileParserTest - 2019.07.09 at 09h 42m 11s.xml">
-      <configuration name="FlatFileParserTest" configurationId="JUnit" />
+    <history-entry file="FlatFileMakerTest_testMakerBasic - 2019.07.10 at 08h 35m 17s.xml">
+      <configuration name="FlatFileMakerTest.testMakerBasic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlatFileParserTest - 2019.07.09 at 09h 42m 16s.xml">
-      <configuration name="FlatFileParserTest" configurationId="JUnit" />
+    <history-entry file="FlatFileMakerTest_testMakerBasic - 2019.07.10 at 08h 49m 09s.xml">
+      <configuration name="FlatFileMakerTest.testMakerBasic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlatFileParserTest - 2019.07.09 at 09h 43m 02s.xml">
-      <configuration name="FlatFileParserTest" configurationId="JUnit" />
+    <history-entry file="FlatFileMakerTest_testMakerBasic - 2019.07.10 at 08h 56m 11s.xml">
+      <configuration name="FlatFileMakerTest.testMakerBasic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlatFileParserTest - 2019.07.09 at 09h 44m 40s.xml">
-      <configuration name="FlatFileParserTest" configurationId="JUnit" />
+    <history-entry file="FlatFileMakerTest_testMakerBasic - 2019.07.10 at 08h 56m 25s.xml">
+      <configuration name="FlatFileMakerTest.testMakerBasic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlatFileParserTest - 2019.07.09 at 09h 45m 17s.xml">
-      <configuration name="FlatFileParserTest" configurationId="JUnit" />
+    <history-entry file="FlatFileMakerTest_testMakerBasic - 2019.07.10 at 09h 01m 53s.xml">
+      <configuration name="FlatFileMakerTest.testMakerBasic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlatFileParserTest - 2019.07.09 at 09h 52m 14s.xml">
-      <configuration name="FlatFileParserTest" configurationId="JUnit" />
+    <history-entry file="FlatFileMakerTest_testMakerBasic - 2019.07.10 at 09h 02m 26s.xml">
+      <configuration name="FlatFileMakerTest.testMakerBasic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_FixedWidthSample - 2019.07.09 at 10h 03m 00s.xml">
-      <configuration name="All in FixedWidthSample" configurationId="JUnit" />
+    <history-entry file="FlatFileMakerTest_testMakerBasic - 2019.07.10 at 09h 03m 04s.xml">
+      <configuration name="FlatFileMakerTest.testMakerBasic" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Azure Explorer" order="3" />
@@ -387,7 +350,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44103548" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18600191" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39980826" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -475,9 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/sourceFlatFileTest1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/temp/testRead.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -486,9 +446,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/schematest1.csv">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -504,19 +461,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BasicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/SerUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="263">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -525,7 +487,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FlatFileParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="977">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/output2019-07-10 081538.605/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/output2019-07-10 081842.72/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/output2019-07-10-082601.949/part-00000">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="10" selection-end-line="3" selection-end-column="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/output2019-07-10-083516.842/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/output2019-07-10-085624.519/part-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="152" lean-forward="true" selection-end-line="3" selection-end-column="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/schematest1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/sourceFlatFileTest1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -534,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="11" column="94" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+        <state relative-caret-position="-213">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -544,25 +554,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FlatFileMakerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="518">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
