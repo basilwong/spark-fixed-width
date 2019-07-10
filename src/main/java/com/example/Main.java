@@ -26,9 +26,10 @@ public class Main {
 //                 .withColumn(c, TransUtil.set_col_length(methodDS.col(c), 3));
 //      }
       methodDS.show();
-      methodDS = methodDS.
-              withColumn("Birth-Date", TransUtil.toFlatFileDate(methodDS.col("Birth-Date")));
-
+      methodDS = methodDS
+              .withColumn("Birth-Date", TransUtil.toFlatFileDate(methodDS.col("Birth-Date")));
+      methodDS = methodDS
+              .withColumn("Name", TransUtil.handleSpanish(methodDS.col("Name")));
       methodDS.show();
 
       // Save To Flat File

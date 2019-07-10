@@ -18,4 +18,9 @@ public class TransUtil implements Serializable{
         return functions.date_format(functions.to_timestamp(c, "MM/dd/yyyy"), "yyyyMMdd");
     }
 
+    public static Column handleSpanish(Column c) {
+        String testStr = " ñüáéíóú ú";
+        return functions.translate(c, "ñüáéíóú", "nuaeiou");
+    }
+
 }
