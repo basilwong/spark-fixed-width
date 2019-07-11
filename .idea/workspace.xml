@@ -4,6 +4,7 @@
     <list default="true" id="a3a497e5-bc44-437d-8c26-abec03ec8e0d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/bwong.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TransUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/src/main/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/main/resources/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/src/main/java/com/example/FlatFileMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/main/java/com/example/FlatFileMaker.java" afterDir="false" />
@@ -46,7 +47,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/target/classes/2019-07-09 162026.154/part-00000" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/target/test-classes/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/target/test-classes/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/TransUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/TransUtil.java" afterDir="false" />
     </list>
@@ -66,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-426">
+            <state relative-caret-position="-375">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,14 +87,37 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TransUtilTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FlatFileParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="510">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1562874372004" expanded="true" signature="596:761" ph="..." />
+                <marker date="1562882149290" expanded="true" signature="596:761" ph="..." />
               </folding>
             </state>
           </provider>
@@ -112,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/TransUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="221">
+              <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,8 +184,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/TranformUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/FlatFileParserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/TransUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/TransUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TransUtilTest.java" />
       </list>
     </option>
   </component>
@@ -293,22 +317,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Main" />
-      <module name="spark-fixed-width" />
-      <option name="PROGRAM_PARAMETERS" value="local src/main/resources/schema2.csv src/main/resources/fw2.txt src/main/resources/output/" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in FixedWidthSample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in spark-fixed-width">
+    <configuration name="All in spark-fixed-width" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spark-fixed-width" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -316,57 +326,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlatFileMakerTest.testMakerBasic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransUtilTest.testDateFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spark-fixed-width" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FlatFileMakerTest" />
-      <option name="METHOD_NAME" value="testMakerBasic" />
+      <option name="MAIN_CLASS_NAME" value="TransUtilTest" />
+      <option name="METHOD_NAME" value="testDateFormat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlatFileParserTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransUtilTest.testDateFormatNeg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spark-fixed-width" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="temp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="temp.FlatFileParserTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="TransUtilTest" />
+      <option name="METHOD_NAME" value="testDateFormatNeg" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlatFileParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransUtilTest.testHandleSpanish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spark-fixed-width" />
-      <shortenClasspath name="CLASSPATH_FILE" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FlatFileParserTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
+      <option name="MAIN_CLASS_NAME" value="TransUtilTest" />
+      <option name="METHOD_NAME" value="testHandleSpanish" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransUtilTest.testSetCol1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spark-fixed-width" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TransUtilTest" />
+      <option name="METHOD_NAME" value="testSetCol1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.FlatFileParserTest" />
-      <item itemvalue="JUnit.All in FixedWidthSample" />
-      <item itemvalue="JUnit.FlatFileParserTest (1)" />
-      <item itemvalue="JUnit.FlatFileMakerTest.testMakerBasic" />
+      <item itemvalue="JUnit.TransUtilTest.testSetCol1" />
+      <item itemvalue="JUnit.TransUtilTest.testDateFormat" />
+      <item itemvalue="JUnit.TransUtilTest.testDateFormatNeg" />
+      <item itemvalue="JUnit.TransUtilTest.testHandleSpanish" />
+      <item itemvalue="JUnit.All in spark-fixed-width" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.All in FixedWidthSample" />
-        <item itemvalue="JUnit.FlatFileMakerTest.testMakerBasic" />
-        <item itemvalue="JUnit.FlatFileParserTest" />
-        <item itemvalue="JUnit.FlatFileParserTest (1)" />
+        <item itemvalue="JUnit.All in spark-fixed-width" />
+        <item itemvalue="JUnit.TransUtilTest.testHandleSpanish" />
+        <item itemvalue="JUnit.TransUtilTest.testDateFormatNeg" />
+        <item itemvalue="JUnit.TransUtilTest.testDateFormat" />
+        <item itemvalue="JUnit.TransUtilTest.testSetCol1" />
       </list>
     </recent_temporary>
   </component>
@@ -384,35 +397,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FlatFileMakerTest_testMakerBasic - 2019.07.10 at 09h 03m 04s.xml">
-      <configuration name="FlatFileMakerTest.testMakerBasic" configurationId="JUnit" />
+    <history-entry file="TransUtilTest_testSetCol1 - 2019.07.11 at 14h 46m 53s.xml">
+      <configuration name="TransUtilTest.testSetCol1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_FixedWidthSample - 2019.07.10 at 09h 21m 23s.xml">
-      <configuration name="All in FixedWidthSample" configurationId="JUnit" />
+    <history-entry file="TransUtilTest_testSetCol1 - 2019.07.11 at 14h 49m 49s.xml">
+      <configuration name="TransUtilTest.testSetCol1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_FixedWidthSample - 2019.07.10 at 09h 22m 25s.xml">
-      <configuration name="All in FixedWidthSample" configurationId="JUnit" />
+    <history-entry file="TransUtilTest_testDateFormat - 2019.07.11 at 14h 58m 43s.xml">
+      <configuration name="TransUtilTest.testDateFormat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_FixedWidthSample - 2019.07.10 at 09h 43m 15s.xml">
-      <configuration name="All in FixedWidthSample" configurationId="JUnit" />
+    <history-entry file="TransUtilTest_testDateFormat - 2019.07.11 at 14h 59m 32s.xml">
+      <configuration name="TransUtilTest.testDateFormat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_FixedWidthSample - 2019.07.10 at 09h 43m 29s.xml">
-      <configuration name="All in FixedWidthSample" configurationId="JUnit" />
+    <history-entry file="TransUtilTest_testDateFormat - 2019.07.11 at 15h 00m 31s.xml">
+      <configuration name="TransUtilTest.testDateFormat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_FixedWidthSample - 2019.07.10 at 09h 44m 29s.xml">
-      <configuration name="All in FixedWidthSample" configurationId="JUnit" />
+    <history-entry file="TransUtilTest_testDateFormat - 2019.07.11 at 15h 04m 02s.xml">
+      <configuration name="TransUtilTest.testDateFormat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_FixedWidthSample - 2019.07.10 at 09h 45m 58s.xml">
-      <configuration name="All in FixedWidthSample" configurationId="JUnit" />
+    <history-entry file="TransUtilTest_testDateFormat - 2019.07.11 at 15h 04m 37s.xml">
+      <configuration name="TransUtilTest.testDateFormat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_FixedWidthSample - 2019.07.10 at 10h 45m 49s.xml">
-      <configuration name="All in FixedWidthSample" configurationId="JUnit" />
+    <history-entry file="TransUtilTest_testDateFormat - 2019.07.11 at 15h 06m 36s.xml">
+      <configuration name="TransUtilTest.testDateFormat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_FixedWidthSample - 2019.07.10 at 11h 02m 45s.xml">
-      <configuration name="All in FixedWidthSample" configurationId="JUnit" />
+    <history-entry file="TransUtilTest_testDateFormatNeg - 2019.07.11 at 15h 06m 59s.xml">
+      <configuration name="TransUtilTest.testDateFormatNeg" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_FixedWidthSample - 2019.07.10 at 11h 04m 42s.xml">
-      <configuration name="All in FixedWidthSample" configurationId="JUnit" />
+    <history-entry file="TransUtilTest_testDateFormatNeg - 2019.07.11 at 15h 07m 32s.xml">
+      <configuration name="TransUtilTest.testDateFormatNeg" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -449,7 +462,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/part-00000-cdeebf81-582d-455a-8e24-617502671f73-c000.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/part-00000-54a43827-88e0-4b55-929e-d994a3ae86ed-c000.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/part-00000-7e367738-9c36-4a03-9fa3-c878d9538093-c000.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/output.csv/part-00000-b037624d-64a2-4f92-8e8e-69d2457366cb-c000.csv" />
@@ -581,26 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FlatFileParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -611,13 +603,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="-375">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1562874372004" expanded="true" signature="596:761" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FlatFileParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1562882149290" expanded="true" signature="596:761" ph="..." />
           </folding>
         </state>
       </provider>
@@ -634,8 +645,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/TransUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="221">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TransUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -25,7 +25,10 @@ public class Main {
 //      }
       methodDS.show();
       methodDS = methodDS
-              .withColumn("Birth-Date", TransUtil.toFlatFileDate(methodDS.col("Birth-Date")))
+              .withColumn("Birth-Date", TransUtil.toFlatFileDate(
+                      methodDS.col("Birth-Date"),
+                     "MM/dd/yyyy",
+                     "yyyyMMdd"))
               .withColumn("Name", TransUtil.handleSpanish(methodDS.col("Name")));
       methodDS.show();
 
