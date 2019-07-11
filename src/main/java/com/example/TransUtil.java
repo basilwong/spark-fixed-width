@@ -1,12 +1,7 @@
 package com.example;
 
-import org.apache.spark.api.java.*;
 import org.apache.spark.sql.*;
-import org.apache.spark.sql.types.*;
-
 import java.io.Serializable;
-import java.util.*;
-import java.util.stream.Collectors;
 
 public class TransUtil implements Serializable{
 

@@ -18,8 +18,6 @@ public class Main {
       FlatFileParser parser = new FlatFileParser(sesh, flatFilePath, schemaFilePath);
       Dataset<Row> methodDS = parser.getDataset(sesh);
 
-
-
       // Transformation
 //      for (String c : methodDS.columns()) {
 //         methodDS = methodDS
@@ -27,8 +25,7 @@ public class Main {
 //      }
       methodDS.show();
       methodDS = methodDS
-              .withColumn("Birth-Date", TransUtil.toFlatFileDate(methodDS.col("Birth-Date")));
-      methodDS = methodDS
+              .withColumn("Birth-Date", TransUtil.toFlatFileDate(methodDS.col("Birth-Date")))
               .withColumn("Name", TransUtil.handleSpanish(methodDS.col("Name")));
       methodDS.show();
 
@@ -36,4 +33,5 @@ public class Main {
       String outputPath = args[3];
       FlatFileMaker.genFlatFile(sesh, schemaFilePath, outputPath, methodDS, true);
    }
+
 }

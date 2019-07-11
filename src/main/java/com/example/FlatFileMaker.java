@@ -7,6 +7,9 @@ import java.util.*;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 
+/*
+
+ */
 public class FlatFileMaker {
 
     public static String genFlatFile(
