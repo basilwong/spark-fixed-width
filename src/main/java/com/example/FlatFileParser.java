@@ -4,9 +4,9 @@ import org.apache.spark.api.java.*;
 import org.apache.spark.sql.*;
 import org.apache.spark.sql.types.*;
 
-import java.io.Serializable;
 import java.util.*;
 import java.util.stream.Collectors;
+import java.io.Serializable;
 
 public class FlatFileParser implements Serializable {
 
