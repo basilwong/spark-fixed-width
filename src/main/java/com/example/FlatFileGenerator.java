@@ -5,12 +5,8 @@ import org.apache.spark.api.java.*;
 import org.apache.spark.sql.*;
 import java.util.*;
 import java.sql.Timestamp;
-import java.text.SimpleDateFormat;
 
-/*
-
- */
-public class FlatFileMaker {
+public class FlatFileGenerator {
 
     public static String genFlatFile(
             SparkSession sc,

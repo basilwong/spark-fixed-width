@@ -1,4 +1,3 @@
-import com.example.FlatFileParser;
 import org.apache.spark.SparkConf;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
@@ -10,12 +9,12 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.util.*;
-import com.example.FlatFileMaker;
+import com.example.FlatFileGenerator;
 import java.util.stream.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class FlatFileMakerTest {
+public class FlatFileGeneratorTest {
     private static Dataset<Row> df;
     private static SparkSession spark;
 
@@ -46,7 +45,7 @@ public class FlatFileMakerTest {
     public void testMakerBasic() {
         String outputPath = "src/test/resources/output/";
         String schemaPath = "src/test/resources/sample-schema-1.csv";
-        String filePath = FlatFileMaker.genFlatFile(
+        String filePath = FlatFileGenerator.genFlatFile(
                 spark,
                 schemaPath,
                 outputPath,

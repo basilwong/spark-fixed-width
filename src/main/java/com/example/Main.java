@@ -1,7 +1,6 @@
 package com.example;
 
 import org.apache.spark.sql.*;
-import org.apache.spark.sql.functions;
 
 public class Main {
 
@@ -16,25 +15,19 @@ public class Main {
       String flatFilePath = args[2];
 
       FlatFileParser parser = new FlatFileParser(sesh, flatFilePath, schemaFilePath);
-      Dataset<Row> methodDS = parser.getDataset(sesh);
+      Dataset<Row> ds = parser.getDataset(sesh);
 
-      // Transformation
-//      for (String c : methodDS.columns()) {
-//         methodDS = methodDS
-//                 .withColumn(c, TransUtil.set_col_length(methodDS.col(c), 3));
-//      }
-      methodDS.show();
-      methodDS = methodDS
+      // Transform
+      ds = ds
               .withColumn("Birth-Date", TransUtil.toFlatFileDate(
-                      methodDS.col("Birth-Date"),
+                      ds.col("Birth-Date"),
                      "MM/dd/yyyy",
                      "yyyyMMdd"))
-              .withColumn("Name", TransUtil.handleSpanish(methodDS.col("Name")));
-      methodDS.show();
+              .withColumn("Name", TransUtil.handleSpanish(ds.col("Name")));
 
       // Save To Flat File
       String outputPath = args[3];
-      FlatFileMaker.genFlatFile(sesh, schemaFilePath, outputPath, methodDS, true);
+      FlatFileGenerator.genFlatFile(sesh, schemaFilePath, outputPath, ds, true);
    }
 
 }
