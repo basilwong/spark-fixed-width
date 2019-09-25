@@ -5,6 +5,10 @@
       <change afterPath="$PROJECT_DIR$/.idea/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/bwong.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GenericParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GenericWarlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/credit-history.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/src/main/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/main/resources/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/src/main/java/com/example/FlatFileMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/main/java/com/example/FlatFileMaker.java" afterDir="false" />
@@ -47,7 +51,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/target/classes/2019-07-09 162026.154/part-00000" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/target/test-classes/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/target/test-classes/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/credit-history.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FlatFileGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlatFileGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/credit-history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/credit-history.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,44 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/SerUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FlatFileGeneratorTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EndtoEndTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,23 +80,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SparkETLConcept/src/test/resources/csv3.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/sample-schema-1.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/sample-flat-file-1.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/sample-generated-1.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/test/resources/credit-history.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -139,24 +100,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -192,7 +142,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/FlatFileParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/FlatFileMaker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/FlatFileGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/etl/FlatFileParse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/etl/GenericParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/etl/TransUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FlatFileGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/credit-history.csv" />
       </list>
     </option>
   </component>
@@ -216,10 +172,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="96" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="height" value="1152" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -227,8 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,6 +214,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-fixed-width" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-fixed-width" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="etl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-fixed-width" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-fixed-width" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -301,6 +273,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,10 +289,15 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bwong\IdeaProjects\spark-fixed-width\src\main\resources" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.etl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bwong\IdeaProjects\spark-fixed-width\src\test\resources" />
       <recent name="C:\Users\bwong\IdeaProjects\spark-fixed-width\src\main\resources" />
     </key>
   </component>
@@ -334,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.GenericParserTest.testParseFlatFile2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Main" />
       <module name="spark-fixed-width" />
@@ -356,21 +335,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransUtilTest.testDateFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlatFileGeneratorTest.testMakerBasic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spark-fixed-width" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TransUtilTest" />
-      <option name="METHOD_NAME" value="testDateFormat" />
+      <option name="MAIN_CLASS_NAME" value="FlatFileGeneratorTest" />
+      <option name="METHOD_NAME" value="testMakerBasic" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransUtilTest.testDateFormatNeg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenericParserTest.testParseFlatFile2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spark-fixed-width" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TransUtilTest" />
-      <option name="METHOD_NAME" value="testDateFormatNeg" />
+      <option name="MAIN_CLASS_NAME" value="GenericParserTest" />
+      <option name="METHOD_NAME" value="testParseFlatFile2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -389,17 +368,17 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.All in spark-fixed-width" />
-      <item itemvalue="JUnit.TransUtilTest.testDateFormatNeg" />
-      <item itemvalue="JUnit.TransUtilTest.testDateFormat" />
+      <item itemvalue="JUnit.FlatFileGeneratorTest.testMakerBasic" />
+      <item itemvalue="JUnit.GenericParserTest.testParseFlatFile2" />
       <item itemvalue="JUnit.TransUtilTest.testHandleSpanish" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.GenericParserTest.testParseFlatFile2" />
+        <item itemvalue="JUnit.FlatFileGeneratorTest.testMakerBasic" />
         <item itemvalue="JUnit.All in spark-fixed-width" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TransUtilTest.testHandleSpanish" />
-        <item itemvalue="JUnit.TransUtilTest.testDateFormatNeg" />
-        <item itemvalue="JUnit.TransUtilTest.testDateFormat" />
       </list>
     </recent_temporary>
   </component>
@@ -417,27 +396,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TransUtilTest_testDateFormat - 2019.07.11 at 14h 59m 32s.xml">
-      <configuration name="TransUtilTest.testDateFormat" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransUtilTest_testDateFormat - 2019.07.11 at 15h 00m 31s.xml">
-      <configuration name="TransUtilTest.testDateFormat" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransUtilTest_testDateFormat - 2019.07.11 at 15h 04m 02s.xml">
-      <configuration name="TransUtilTest.testDateFormat" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransUtilTest_testDateFormat - 2019.07.11 at 15h 04m 37s.xml">
-      <configuration name="TransUtilTest.testDateFormat" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransUtilTest_testDateFormat - 2019.07.11 at 15h 06m 36s.xml">
-      <configuration name="TransUtilTest.testDateFormat" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransUtilTest_testDateFormatNeg - 2019.07.11 at 15h 06m 59s.xml">
-      <configuration name="TransUtilTest.testDateFormatNeg" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransUtilTest_testDateFormatNeg - 2019.07.11 at 15h 07m 32s.xml">
-      <configuration name="TransUtilTest.testDateFormatNeg" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TransUtilTest_testHandleSpanish - 2019.07.11 at 15h 40m 17s.xml">
       <configuration name="TransUtilTest.testHandleSpanish" configurationId="JUnit" />
     </history-entry>
@@ -447,12 +405,33 @@
     <history-entry file="All_in_spark-fixed-width - 2019.07.11 at 15h 41m 32s.xml">
       <configuration name="All in spark-fixed-width" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_spark-fixed-width - 2019.08.07 at 15h 57m 28s.xml">
+      <configuration name="All in spark-fixed-width" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_spark-fixed-width - 2019.08.07 at 15h 59m 39s.xml">
+      <configuration name="All in spark-fixed-width" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_spark-fixed-width - 2019.08.07 at 16h 00m 18s.xml">
+      <configuration name="All in spark-fixed-width" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlatFileGeneratorTest_testMakerBasic - 2019.08.07 at 16h 00m 44s.xml">
+      <configuration name="FlatFileGeneratorTest.testMakerBasic" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlatFileGeneratorTest_testMakerBasic - 2019.08.07 at 16h 01m 10s.xml">
+      <configuration name="FlatFileGeneratorTest.testMakerBasic" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlatFileGeneratorTest_testMakerBasic - 2019.08.07 at 16h 04m 56s.xml">
+      <configuration name="FlatFileGeneratorTest.testMakerBasic" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenericParserTest_testParseFlatFile2 - 2019.08.07 at 16h 13m 13s.xml">
+      <configuration name="GenericParserTest.testParseFlatFile2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1152" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2803838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Azure Explorer" order="3" />
@@ -460,7 +439,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40076703" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41020608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39980826" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -511,28 +490,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/outputyo/part-00000" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/2019-07-05141704.492/part-00000" />
-    <entry file="file://$PROJECT_DIR$/src/main/output/2019-07-05 142411.545/part-00000" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/2019-07-08 105457.86/part-00000" />
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-FlatFileParserTest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/2019-07-08 142730.302/part-00000" />
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/FlatFileParserTest.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testRead.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/temp/testRead.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/credithistory.csv" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/output2019-07-10 081538.605/part-00000" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/output2019-07-10 081842.72/part-00000" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/output2019-07-10-082601.949/part-00000" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/output2019-07-10-083516.842/part-00000" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/output2019-07-10-085624.519/part-00000" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/schematest1.csv" />
@@ -601,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EndtoEndTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TransUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
@@ -618,27 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fw1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fw2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/schema1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -646,16 +575,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/output/2019-07-12-153122.881/part-00000">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/schema2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../SparkETLConcept/src/test/resources/csv3.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -676,25 +596,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/etl/GenericWarlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FlatFileGeneratorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/etl/GenericParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="272">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/etl/FlatFileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/etl/FlatFileParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SparkETLConcept/src/test/resources/csv3.csv">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/etl/TransUtil.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/output/2019-07-12-153122.881/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/output/2019-07-11-193336.619/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/output/2019-07-11-193201.273/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/output/2019-07-11-154130.798/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/output/2019-07-10-110441.072/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/output/2019-08-07-160455.695/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FlatFileGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GenericParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GenericWarlockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/credit-history.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FlatFileParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -706,24 +713,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FlatFileGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema2.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/sample-schema-1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/sample-generated-1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/sample-flat-file-1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fw2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fw1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EndtoEndTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/sample-generated-1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/sample-schema-1.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/sample-flat-file-1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

@@ -63,7 +63,7 @@ public class FlatFileGeneratorTest {
         try (Stream<String> lines = Files.lines(Paths.get(filePath))) {
         list = lines.collect(Collectors.toList());
         } catch (IOException e) {
-            System.out.println("Someething is wrong.");
+            System.out.println("Something is wrong.");
         }
         return list;
     }
