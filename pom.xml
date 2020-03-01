@@ -45,7 +45,7 @@
                     <configuration>
                         <archive>
                             <manifest>
-                                <mainClass>main.java.com.example.Main</mainClass>
+                                <mainClass>main.java.com.etl.Main</mainClass>
                             </manifest>
                         </archive>
                         <descriptorRefs>

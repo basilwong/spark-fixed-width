@@ -1,4 +1,4 @@
-package com.example;
+package com.etl;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.spark.api.java.*;

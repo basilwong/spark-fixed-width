@@ -1,4 +1,4 @@
-package com.example;
+package com.etl;
 
 import org.apache.spark.api.java.*;
 import org.apache.spark.sql.*;
