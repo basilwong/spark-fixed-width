@@ -21,5 +21,9 @@ Required dependencies added to the pom. Note that these classes will work on any
 </dependencies>
 ```
 
-# Utilization
+## Utilization
+
+FlatFileGenerator is used to generate flat files from a Dataset. FlatFileParser is used to parse a flat file into a Dataset. 
+
+Examples of how to use the classes are in the main.java file. 
 
