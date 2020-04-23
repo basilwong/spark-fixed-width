@@ -11,12 +11,12 @@ Required dependencies added to the pom. Note that these classes will work on any
     <dependency>
         <groupId>org.apache.spark</groupId>
         <artifactId>spark-core_2.11</artifactId>
-        <version>2.3.2</version>
+        <version>2.3.3</version>
     </dependency>
     <dependency>
         <groupId>org.apache.spark</groupId>
         <artifactId>spark-sql_2.11</artifactId>
-        <version>2.3.2</version>
+        <version>2.3.3</version>
     </dependency>
 </dependencies>
 ```
