@@ -1,6 +1,6 @@
 # Spark Fixed Width 
 
-Classes that parse fixed width column files into Spark Datasets and generate fixed width column files from Spark Datasets in Java. 
+Framework for parsing fixed width column files into Spark Datasets and generating fixed width column files from Spark Datasets in Java. 
 
 ## Dependencies
 
